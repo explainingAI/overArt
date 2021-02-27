@@ -1,10 +1,8 @@
-OverArt Generator
-==============================
+<div align="center">
+  <img src="https://raw.githubusercontent.com/explainingAI/overArt/master/docs/overart.png">
+</div>
 
-Algorithm for the generation of the artificial dataset OverArt
-
-OverArt dataset
-------------
+Algorithm for the generation of the artificial dataset **OverArt**
 
 We generate the OverArt dataset in order to obtain a ground truth of the concave points of 
 overlapped objects. Each image of the dataset contains a cluster with three overlapped ellipses. 
