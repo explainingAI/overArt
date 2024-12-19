@@ -1,6 +1,8 @@
 # OverArt dataset
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14524249.svg)](https://doi.org/10.5281/zenodo.14524249)
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/explainingAI/overArt/master/docs/overart.png">
@@ -25,6 +27,7 @@ and maximum distance to the center of the first and second ellipses.
 
 ## Reference
 
+### Article
 ```
 @article{miro2020segmenting,
   title={Segmenting overlapped cell clusters in biomedical images by concave point detection},
@@ -33,4 +36,22 @@ and maximum distance to the center of the first and second ellipses.
   year={2020}
 }
 
+```
+
+### Database
+
+```
+@dataset{miro_nicolau_2024_14524249,
+  author       = {Miró Nicolau, Miquel and
+                  Moya-Alcover, Gabriel and
+                  González-Hidalgo, Manuel and
+                  Jaume-i-Capó, Antoni},
+  title        = {OverArt dataset},
+  month        = dec,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.14524249},
+  url          = {https://doi.org/10.5281/zenodo.14524249},
+}
 ```
