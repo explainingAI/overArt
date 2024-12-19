@@ -1,8 +1,12 @@
+# OverArt dataset
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/explainingAI/overArt/master/docs/overart.png">
 </div>
 
-Algorithm for the generation of the artificial dataset **OverArt**
+## Algorithm
 
 We generate the OverArt dataset in order to obtain a ground truth of the concave points of 
 overlapped objects. Each image of the dataset contains a cluster with three overlapped ellipses. 
@@ -18,3 +22,15 @@ positions of the other two ellipses are related to the first one. The location o
 is randomly selected inside the area defined by the minimum and maximum distance to the center of 
 the first ellipse. Finally, the third one is randomly placed inside the area defined by the minimum 
 and maximum distance to the center of the first and second ellipses.
+
+## Reference
+
+```
+@article{miro2020segmenting,
+  title={Segmenting overlapped cell clusters in biomedical images by concave point detection},
+  author={Mir{\'o}-Nicolau, Miquel and Moy{\`a}-Alcover, Biel and Gonz{\'a}lez-Hidalgo, Manuel and Jaume-i-Cap{\'o}, Antoni},
+  journal={arXiv preprint arXiv:2008.00997},
+  year={2020}
+}
+
+```
